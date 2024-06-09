@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camisetas</title>
+    <style>
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            border-radius: 10px;
+            
+        }
+        td{
+            border: 2px solid black;
+        }
+        #gerar{
+            margin-left: 45%;
+        }
+        #resultGeral, #resultadoG, #resultadoM, #resultadoP{
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Camisetas</h1>
+    <table>
+        <tr>
+            <th>Tamanho</th>
+            <th>QTD</th>
+            <th>Valor</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Grande</td>
+            <td><input type="number" name="qtdCamisa" id="qtdCamisaG"></td>
+            <td>R$15,00</td>
+            <td id="resultadoG"></td>
+        </tr>
+        <tr>
+            <td>Média</td>
+            <td><input type="number" name="qtdCamisa" id="qtdCamisaM"></td>
+            <td>R$12,00</td>
+            <td id="resultadoM"></td>
+        </tr>
+        <tr>
+            <td>Pequena</td>
+            <td><input type="number" name="qtdCamisa" id="qtdCamisaP"></td>
+            <td>R$10,00</td>
+            <td id="resultadoP"></td>
+        </tr>
+        <tr>
+            <td colspan="3"><button id="gerar">Gerar</button></td>
+            <td id="resultGeral"></td>
+        </tr>
+    </table>
+    
+    
+</body>
+<script src="script.js"></script>
+</html>
