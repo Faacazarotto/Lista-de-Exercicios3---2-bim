@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasolina</title>
+</head>
+<body>
+    <h1>Valor da Gasolina</h1>
+    <label for="gasolina">Qual a Gasolina?</label>
+    <select name="gasolina" id="tpGasolina">
+        <option value="null"></option>
+        <option value="aditivada">Gasolina Aditivada</option>
+        <option value="comum">Gasolina Comum</option>
+    </select>
+    <br>
+    <label for="vlrpg">Qual o valor do Pagamento:</label>
+    <input type="number" name="vlrpg" id="vlrpg" placeholder="Pagamento (R$)">
+
+    <button id="gerar">Gerar</button>
+
+    <h3 id="resultado"></h3>
+
+
+</body>
+<script src="script.js"></script>
+</html>
